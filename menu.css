@@ -1,0 +1,129 @@
+@font-face {
+	font-family: athabasca;
+	src: url(../fonts/athabasca-el-it.ttf);
+}
+
+/*css for initial menu*/
+#menu {
+	position: absolute;
+	background-color: #f90;
+	width: 500px;
+	height: 600px;
+	border-radius: 10%;
+	margin-bottom: 50px;
+}
+
+ul {
+	list-style: none;
+}
+
+.title_menu {
+	color: #000;
+	position: absolute;
+	font-size: 70px;
+	font-family: "athabasca";
+	text-align: center;
+	text-shadow: #000 1px 1px 5px;
+	width: auto;
+	height: auto;
+}
+
+.button {
+	background-color: #f90;
+	width: 200px;
+	position: absolute;
+	font-size: 50px;
+	text-align: center;
+	border: none;
+	border-radius: 12px;
+}
+
+.button:hover {
+	background-color: #ffa31a;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.4s;
+}
+
+.button:active {
+	outline: none;
+}
+
+/*css for settings menu*/
+input, select {
+	display: inline;
+}
+
+.para {
+	color: #000;
+	display: inline;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 20px;
+}
+
+.settingsOptions {
+	position: absolute;
+	font-size: 20px;
+	height: auto;
+}
+
+/*style checkbox buttons and text*/
+input[type="checkbox"] {
+
+	margin-right: 40px;
+}
+
+input[value="red"]::after {
+	margin-left: 25px;
+	margin-right: 10px;
+    content: "red";
+}
+
+input[value="blue"]::after {
+	margin-left: 20px;
+	margin-right: 10px;
+    content: "blue";
+}
+
+input[value="green"]::after {
+	margin-left: 18px;
+	margin-right: 10px;
+    content: "green";
+}
+
+input[value="purple"]::after {
+	margin-left: 18px;
+	margin-right: 10px;
+    content: "purple";
+}
+
+/*style for radio buttons and text*/
+input[type="radio"] {
+	margin-right: 60px;
+}
+
+input[value="Easy"]::after {
+	margin-left: 30px;
+	content: "Easy";
+}
+
+input[value="Medium"]::after {
+	margin-left: 20px;
+	content: "Medium";
+}
+
+input[value="Hard"]::after {
+	margin-left: 20px;
+	content: "Hard";
+}
+
+/*style for scores menu*/
+.scoresElements {
+	position: absolute;
+	font-size: 50px;
+	height: auto;
+}
+
+.scoresElements > p {
+	margin-right: 200px;
+}

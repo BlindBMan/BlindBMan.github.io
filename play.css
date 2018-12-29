@@ -1,0 +1,51 @@
+.playArea {
+	width: 1200px;
+	height: 600px;
+	background-color: #000;
+	border: 10px solid #333;
+	margin: 30px auto 0;
+	box-shadow: 5px 5px 10px #444;
+}
+
+.player {
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	position: absolute;
+}
+
+.test {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+}
+
+.reward {
+	width: 40px;
+	height: 40px;
+	background-color: green;
+	position: absolute;
+}
+
+.horizontalObstacle {
+	width: 120px;
+	height: 10px;
+	background-color: red;
+	position: absolute;
+}
+
+.verticalObstacle {
+	width: 10px;
+	height: 110px;
+	background-color: red;
+	position: absolute;
+}
+
+.gameOver {
+	font-size: 5vw;
+	text-align: center;
+	line-height: 600px;
+	font-family: 'athabasca';
+	color: #f9b;
+}
